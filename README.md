@@ -14,6 +14,18 @@ pnpm dev
 bun dev
 ```
 
+Second, install necessary packages:
+
+```bash
+npm install cloudinary bcryptjs jose mongoose next-cloudinary
+```
+
+Third, install Dev Dependencies:
+
+```bash
+npm install --save-dev @types/bcryptjs dotenv tsx
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
